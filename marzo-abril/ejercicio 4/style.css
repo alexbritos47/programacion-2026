@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #d66da3;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+
+
+.titulo {
+    color: #201d4e;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #acaacf;
+}
+
+.parrafo {
+    color: #5F0D37;
+    font-size: 1.2em;
+    line-height: 1.6;
+    font:cursive;
+    font-weight: bold;
+}
+
+.parrafo1 {
+    color: #5F0D37;
+    font-size: 1.2em;
+    line-height: 1.6;
+    font:cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+#futbol {   
+    color: #3B0822;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+#acampada {   
+    color: #3B0822;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+#proyectos {   
+    color: #3B0822;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+
+.footer {
+    background-color: #201d4e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #201d4e;
+    margin: 20px 0;
+}
+
+    .plaza {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .plaza:hover {
+        transform: scale(1.1);
+    }
