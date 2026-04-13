@@ -1,0 +1,37 @@
+
+.cajaroja {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cajaverde {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaazul {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.diseñoweb {
+    display: flex;
+    gap: 10px;
+}
