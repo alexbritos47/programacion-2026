@@ -46,3 +46,25 @@
 {
       transform: scale(1.1, 1.1);
 }
+
+
+
+.producto {
+ 
+    background-color: rgb(135, 177, 255);
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+
+.colorproducto {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
