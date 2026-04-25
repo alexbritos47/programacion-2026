@@ -1,0 +1,5 @@
+8
+
+Cuidado con ponerlos estilos en html, se puede, pero no es recomendado.
+
+Estructura bastante bien, debes mejorar un poco los estilos.
