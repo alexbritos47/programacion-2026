@@ -67,3 +67,43 @@ background-color: rgb(255, 255, 255);
 
 
 
+
+.nivel3 {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(128, 121, 231);
+    width: fit-content;
+    padding: 10px;
+}
+
+.b1 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+    
+}
+
+.b2 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+
+.b3 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+.b4 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+.level3 {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(231, 140, 208);
+    width: fit-content;
+    padding: 10px;
+}
+
+
