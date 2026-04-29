@@ -1,51 +1,46 @@
-.botones
-{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.header {
+    background-color: #368bbd;
+    height: 500px;
     display: flex;
-    justify-content: flex-end;
-    justify-content: space-between  ;      /* hecho por Alex */
-    padding: 10px;
+    justify-content: space-between;
+    align-items: flex-start;   /* pega todo arriba */
+    padding: 30px 40px;        /* espacio desde los bordes */
+}
+
+
+.logo {
+    color: #eeeeee;
+    font-size: 2.5em;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
     align-items: center;
 }
 
-.iniciosesion
-{
-  
-    display: flex;
-    justify-content: flex-end   ;
-    background-color: #000000;
-    color: white;   
-    padding: 20px  30px;                         /* hecho por bruno */
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-
+.nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    border-radius: 4px;
+    
 }
 
 
-
-
-
-.titulo1
-{
-    display: flex;
-    justify-content: flex-start;      /* hecho por bruno */
-    color: #333333;
-   
+.contact {
+    background-color: #ffffff;
+    border-radius: 50px;
 }
-
-
-.challenge
-{
-    display: flex;
-    justify-content: left;      /* hecho por bruno */
-    color: #000000;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-
-
-
-
 
 
