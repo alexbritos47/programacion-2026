@@ -34,7 +34,14 @@
 }
 
 
-
+.challenge
+{
+    display: flex;
+    justify-content: left;      /* hecho por bruno */
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 
