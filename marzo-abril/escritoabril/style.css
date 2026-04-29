@@ -1,0 +1,44 @@
+.botones
+{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between  ;      /* hecho por Alex */
+    padding: 10px;
+    align-items: center;
+}
+
+.iniciosesion
+{
+  
+    display: flex;
+    justify-content: flex-end   ;
+    background-color: #000000;
+    color: white;   
+    padding: 20px  30px;                         /* hecho por bruno */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.titulo1
+{
+    display: flex;
+    justify-content: flex-start;      /* hecho por bruno */
+    color: #333333;
+   
+}
+
+
+
+
+
+
+
+
+
+

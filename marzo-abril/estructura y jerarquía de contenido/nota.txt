@@ -1,0 +1,14 @@
+7
+
+Detectás bien los contenedores en general, pero hay algunas confusiones importantes.
+
+Por un lado, html y head no son contenedores semánticos. Al momento de estructurar una página no se piensan como parte del diseño, ya que no le dan forma al contenido visible. En particular, estás confundiendo head con header:
+
+head contiene información para el navegador (metadatos).
+header es un contenedor que suele ubicarse en la parte superior de la página.
+
+También aparece una estructura como div section o div footer. La idea es correcta, pero es importante entender que:
+
+Div es una caja, footer es una caja con significado. Las cajas principales de una pagina web es imprortante que vayan con significado, dentro de un footer,header,main, puedes incluir divs.
+
+Vas bien encaminado, pero es clave afianzar estas diferencias.

@@ -1,0 +1,109 @@
+
+
+.body {
+background-color: rgb(255, 255, 255);
+
+}
+
+.cajaroja {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cajaverde {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaazul {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.diseñoweb {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(148, 147, 147);
+    width: fit-content;
+    padding: 10px;
+    
+}
+
+
+.a1 {
+    background-color: rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a2 {
+    font-style: italic;
+}
+
+.a3 {
+    font-weight: bold;
+}
+
+
+
+
+.nivel3 {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(128, 121, 231);
+    width: fit-content;
+    padding: 10px;
+}
+
+.b1 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+    
+}
+
+.b2 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+
+.b3 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+.b4 {
+    color: rgb(231, 231, 231);
+    margin: auto;
+}
+
+.level3 {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(231, 140, 208);
+    width: fit-content;
+    padding: 10px;
+}
+
+
