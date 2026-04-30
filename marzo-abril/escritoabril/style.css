@@ -4,22 +4,18 @@
     box-sizing: border-box;
 }
 
-
-
-
 .header {
     background-color: #368bbd;
-    height: 500px;
+    height: 600px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;   /* pega todo arriba */
-    padding: 30px 40px;        /* espacio desde los bordes */
+    align-items: flex-start;
+    padding: 30px 40px;
 }
-
-
 .logo {
     color: #eeeeee;
     font-size: 2.5em;
+    top: 100px;
 }
 
 .nav {
@@ -29,18 +25,36 @@
 }
 
 .nav a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.2em;
     padding: 8px 16px;
     border-radius: 4px;
-    
 }
-
 
 .contact {
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 50px;
 }
+
+.creatives{
+
+    position: absolute;
+    top: 125px;
+    right:700px;
+    font-size:50px;
+    transform:center;
+    color: #eeeeee;
+}
+
+.limon {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 700px;
+    
+}
+ 
 
 
