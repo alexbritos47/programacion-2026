@@ -1,0 +1,8 @@
+5
+
+Aunque llegaste a un estilo parecido, no te acercaste a los 
+puntos claves del ejercicio, el cual era usando la propiedad "position", 
+si quieres puedes volver a intentarlo usando position, 
+revisa el video que esta en CREA.
+
+
