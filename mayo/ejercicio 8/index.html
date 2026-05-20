@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escape Room</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🔐 Escape Room</h1>
+
+    <p class="desc">
+      Encontrá el código secreto para escapar.
+    </p>
+
+    <div class="grid">
+
+      <div class="box">
+        <h2>📦 Caja Misteriosa</h2>
+
+        <p>Hay una nota arriba:</p>
+
+        <div class="note">
+          “El código es el año en que salió Minecraft”
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>🚪 Puerta</h2>
+
+        <p>Ingresá el código:</p>
+
+        <input type="text" id="codigo" placeholder="Código...">
+
+        <button onclick="verificarCodigo()">
+          Abrir puerta
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Las pistas las hicimos nosotros -->
+
+    <div class="pistas">
+      <h2>🕵️ Pistas</h2>
+
+      
+      <ul>
+        <li>La respuesta tiene 4 números.</li>
+        <li>Salio en  la decada del 2000.</li>
+        <li>El año en que murió Michael Jackson.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
