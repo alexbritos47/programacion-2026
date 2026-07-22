@@ -72,11 +72,72 @@
 
 //echo $area = "su area es:" ($base * $altura);
 
-$nota1 = 5;
-$nota2 = 10;
-$nota3 = 3; 
-echo "su nota es :" ($nota1 + $nota2 + $nota3) / 3;
+//$nota1 = 5;
+//$nota2 = 10;
+//$nota3 = 3; 
+//echo "su nota es: " . (($nota1 + $nota2 + $nota3) / 3);
+
+
+
+//ejercicio 3 con nahuel
+
+
+$totalMinutos = 135;
+$horas = intdiv($totalMinutos, 60);
+$minutos = $totalMinutos % 60;
+
+echo $totalMinutos . " minutos equivalen a " . $horas . " horas y " . $minutos . " minutos.";
 
 
 
 
+//BLOQUE 3  EJERCICIO 1 con nahuel alba
+
+
+$numero1 = 10;
+$numero2 = 20;
+
+if ($numero1 == $numero2) {
+    echo "Los números son iguales\n";
+
+} elseif ($numero1 > $numero2) {
+    echo "El primer número es mayor\n";
+
+} else {
+    echo "El segundo número es mayor\n";
+}
+
+
+//BLOQUE 3  EJERCICIO 2 con nahuel alba
+
+
+$edad = 20;
+
+if ($edad >= 18) {
+    echo "Es mayor de edad\n";
+
+} else {
+    
+    echo "Es menor de edad\n";
+}
+
+//BLOQUE 3  EJERCICIO 3 con nahuel alba
+
+
+$numero = 10;
+$texto = "10";
+
+if ($numero == $texto) {
+    echo "Con == son iguales\n";
+
+} else {
+    echo "Con == son diferentes\n";
+}
+
+
+if ($numero === $texto) {
+    echo "Con === son iguales\n";
+    
+} else {
+    echo "Con === son diferentes\n";
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Fake Store</h1>
+        </div>
+
+        <form class="search-form">
+            <input type="text" id="searchInput" placeholder="Buscar productos...">
+            <button type="submit">Buscar</button>
+        </form>
+       <div class="cart-icon" id="cartIcon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cartCount">0</span>
+        </div>
+
+    </header>
+
+    <!-- MENÚ -->
+    <nav>
+        <ul>
+          
+            <li><a href="#">Perfil</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- FILTROS -->
+        <aside class="filters">
+            <section>
+                <h2>Categorías</h2>
+
+                <select id="categoryFilter">
+                    <option value="">Todas</option>
+                    <!-- Categorías cargadas por JS -->
+                </select>
+            </section>
+        </aside>
+
+        <!-- PRODUCTOS -->
+        <section class="products-section">
+
+            <header>
+                <h2>Catálogo de Productos</h2>
+            </header>
+
+            <div id="productsContainer" class="products-grid">
+
+                <!-- Producto -->
+                <article class="product-card">
+                    <img src="" alt="Producto">
+
+                    <h3>Nombre del producto</h3>
+
+                    <p class="category">
+                        Categoría
+                    </p>
+
+                    <p class="price">
+                        $99.99
+                    </p>
+
+                    <button>
+                        Agregar al carrito
+                    </button>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CARRITO -->
+        <aside class="cart" id="carrito">
+
+            <h2>Carrito</h2>
+
+            <div id="cartItems"></div>
+
+            <footer class="cart-footer">
+                <h3>Total: $<span id="cartTotal">0</span></h3>
+                <button id="finishPurchase">Finalizar Compra</button>
+            </footer>
+
+        </aside>
+
+    </main>
+
+   
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>
+            © 2026 Fake Store Marketplace
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+    </head>
+
+
+
+</body>
+
+</html>

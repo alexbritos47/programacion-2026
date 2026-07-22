@@ -1,0 +1,289 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    background:#65a3ff;
+    color:white;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h1{
+    color:yellow;
+}
+
+.search-form{
+    display:flex;
+}
+
+.search-form input{
+    padding:10px;
+    border:none;
+    width:300px;
+}
+
+.search-form button{
+    padding:10px;
+    border:none;
+    background:yellow;
+    cursor:pointer;
+}
+
+.user-area button{
+    padding:10px;
+    border:none;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+/* MENÚ */
+nav{
+    background:white;
+    border-bottom:1px solid #ccc;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    padding:15px;
+}
+
+nav li{
+    margin-right:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+/* CONTENIDO */
+main{
+    display:grid;
+    grid-template-columns:200px 1fr 250px;
+    gap:20px;
+    padding:20px;
+}
+
+/* FILTROS */
+.filters{
+    background:#65a3ff;
+    padding:20px;
+    border-radius:8px;
+}
+
+.filters h2{
+    margin-bottom:10px;
+}
+
+.filters select{
+    width:100%;
+    padding:10px;
+}
+
+/* PRODUCTOS */
+.products-section h2{
+    margin-bottom:20px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:20px;
+}
+
+.product-card{
+    background:white;
+    border-radius:8px;
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
+}
+
+.product-card img{
+    width:100%;
+    height:180px;
+}
+
+.product-card h3{
+    margin:10px 0;
+}
+
+.product-card{
+    background:white;
+    border-radius:8px;
+    padding:15px;
+    text-align:center;
+    border:1px solid #ddd;
+    transition:0.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.category{
+    color:gray;
+}
+
+.price{
+    margin:10px 0;
+    color:green;
+    font-weight:bold;
+}
+
+.product-card button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#65a3ff;
+    color:white;
+    cursor:pointer;
+}
+
+/* CARRITO */
+.cart{
+    background:#65a3ff;
+    padding:20px;
+    border-radius:8px;
+}
+
+.cart h2{
+    margin-bottom:15px;
+}
+
+.cart-item{
+    border-bottom:1px solid white;
+    padding:10px 0;
+}
+
+.cart-footer{
+    margin-top:20px;
+}
+
+.cart-footer button{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:green;
+    color:white;
+    cursor:pointer;
+}
+
+/* PERFIL */
+#profileSection{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:8px;
+}
+
+.profile-card p{
+    margin:10px 0;
+}
+
+/* FOOTER */
+footer{
+    background:white;
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #ccc;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+
+    header{
+        display:block;
+        text-align:center;
+    }
+
+    .search-form{
+        margin:15px 0;
+        justify-content:center;
+    }
+
+    main{
+        display:block;
+    }
+
+    .filters,
+    .products-section,
+    .cart{
+        margin-bottom:20px;
+    }
+
+    nav ul{
+        display:block;
+        text-align:center;
+    }
+
+    nav li{
+        margin:10px 0;
+    }
+}
+
+
+.cart-icon{
+    position: relative;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.cart-icon span{
+
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+    background: red;
+    color: white;
+
+    width: 22px;
+    height: 22px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+.eliminar {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.eliminar:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+.eliminar:active {
+    transform: scale(0.95);
+}
